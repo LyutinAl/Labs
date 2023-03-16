@@ -1,4 +1,4 @@
-package ru.ltp.securityspring3.dto;
+package ru.student.lab_8.dto;
 
 
 import lombok.AllArgsConstructor;

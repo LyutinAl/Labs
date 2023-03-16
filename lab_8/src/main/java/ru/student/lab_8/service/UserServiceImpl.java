@@ -1,13 +1,13 @@
-package ru.ltp.securityspring3.service;
+package ru.student.lab_8.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import ru.ltp.securityspring3.dto.UserDto;
-import ru.ltp.securityspring3.entity.Role;
-import ru.ltp.securityspring3.entity.User;
-import ru.ltp.securityspring3.repository.RoleRepository;
-import ru.ltp.securityspring3.repository.UserRepository;
+import ru.student.lab_8.dto.UserDto;
+import ru.student.lab_8.entity.Role;
+import ru.student.lab_8.entity.User;
+import ru.student.lab_8.repository.RoleRepository;
+import ru.student.lab_8.repository.UserRepository;
 
 import java.util.Arrays;
 import java.util.List;

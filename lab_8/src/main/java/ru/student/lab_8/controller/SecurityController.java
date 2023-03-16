@@ -1,6 +1,7 @@
-package ru.ltp.securityspring3.controller;
+package ru.student.lab_8.controller;
 
 import lombok.AllArgsConstructor;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -8,9 +9,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.ltp.securityspring3.dto.UserDto;
-import ru.ltp.securityspring3.entity.User;
-import ru.ltp.securityspring3.service.UserService;
+import ru.student.lab_8.dto.UserDto;
+import ru.student.lab_8.entity.User;
+import ru.student.lab_8.service.UserService;
 
 import java.util.List;
 
